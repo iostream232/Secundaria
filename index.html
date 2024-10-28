@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TELESECUNDARIA FRANCISCO I. MADERO</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        /* Estilos Personalizados */
+        .header-bg {
+            background-color: #11165A;
+        }
+        .header-img {
+            width: 120px;
+        }
+        .navbar-dark .navbar-nav .nav-link {
+            font-weight: bold;
+            color: #fff;
+        }
+        .section-title {
+            color: #003366;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+        }
+        .carousel-inner img {
+            max-height: 350px;
+            object-fit: cover;
+        }
+        .btn-primary {
+            background-color: #003366;
+            border-color: #003366;
+        }
+        footer {
+            background-color: #222;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header class="header-bg text-white text-center">
+        <div class="container-fluid p-0">
+            <img src="client/img/1.png" alt="Logo Secundaria" class="header-img w-100 mb-0">
+        </div>
+    </header>
+    
+
+    <!-- Menú de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Inicio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#mision">Misión</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#vision">Visión</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección de Introducción -->
+    <section class="py-5 bg-light text-center">
+        <div class="container">
+            <h2 class="section-title">Educación para el futuro</h2>
+            <p class="lead">En nuestra secundaria, nos esforzamos por ofrecer una educación de calidad, centrada en valores, responsabilidad y el desarrollo integral de nuestros estudiantes.</p>
+        </div>
+    </section>
+
+    <!-- Misión y Visión -->
+    <section class="container py-5">
+        <div class="row">
+            <div class="col-md-6" id="mision">
+                <h3 class="section-title">Nuestra Misión</h3>
+                <p>Formar estudiantes comprometidos con su entorno, capaces de enfrentar los retos del futuro con responsabilidad, ética y excelencia académica.</p>
+            </div>
+            <div class="col-md-6" id="vision">
+                <h3 class="section-title">Nuestra Visión</h3>
+                <p>Ser una institución educativa líder, reconocida por la calidad de su enseñanza y por fomentar el crecimiento integral de sus estudiantes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galería de Imágenes y Facebook -->
+    <section id="galeria" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title">Galería de Imágenes</h2>
+            <div class="row">
+                <!-- Carrusel de Imágenes -->
+                <div class="col-md-6 mb-4">
+                    <div id="carouselGaleria" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="client/img/galeria/photo_Galeria0.jpg" class="d-block w-100" alt="Imagen 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="client/img/galeria/photo_Galeria5.jpg" class="d-block w-100" alt="Imagen 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="client/img/galeria/photo_Galeria6.jpg" class="d-block w-100" alt="Imagen 3">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselGaleria" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselGaleria" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Feed de Facebook -->
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02yCw8SiwAZphr6UjBrx9325aqrTrxH7pJ7VoUjrM22PnwygoWxx6scFUmj8n6A5Jrl%26id%3D100090836438044&show_text=true&width=500"
+                        width="500" height="330" style="border:none;overflow:hidden" scrolling="yes" frameborder="0"
+                        allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="py-5">
+        <div class="container">
+            <h2 class="text-center section-title">Contacto</h2>
+            <form class="mt-4">
+                <div class="row">
+                    <div class="col-md-6 mb-3"><input type="text" class="form-control" placeholder="Nombre Completo" required></div>
+                    <div class="col-md-6 mb-3"><input type="email" class="form-control" placeholder="Correo Electrónico" required></div>
+                    <div class="col-12 mb-3"><textarea class="form-control" rows="5" placeholder="Escribe tu mensaje..." required></textarea></div>
+                    <div class="col-12 text-center"><button type="submit" class="btn btn-primary">Enviar Mensaje</button></div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer class="text-white text-center py-3">
+        <div class="container">
+            <p class="mb-0">&copy; 2024 Secundaria Francisco I. Madero. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
